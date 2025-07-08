@@ -1,0 +1,122 @@
+/* responsividade */
+
+@media screen and (max-width: 900px) {
+  header .menu-desktop,
+  header .btn-contact {
+    display: none;
+  }
+
+  /* Aqui o botão mobile aparece */
+  header .btn-menu-mob {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 878px) {
+  /* repon hero */
+  .hero-site .txt-hero h1 {
+    font-size: 2.6em;
+    line-height: 45px;
+  }
+
+  .hero-site .txt-hero .btn-2 p {
+    font-size: 14px;
+  }
+
+  .hero-site .txt-hero p span {
+    display: inline;
+  }
+
+  /* Afastando o botão do texto acima */
+  .hero-site button {
+    font-size: 19px;
+  }
+
+  /* vantagens */
+
+  section .vantagens {
+    padding: 80px 0;
+  }
+
+  .vantagens .itens-container {
+    flex-direction: column;
+  }
+
+  .vantagens .itens-container .txt-itens p {
+    margin-bottom: 20px;
+  }
+
+  .vantagens .itens-container .item-1 {
+    order: 1;
+  }
+
+  .vantagens .itens-container .item-2 {
+    order: 0;
+  }
+
+  /* estilo dos botoes contato*/
+
+  section.btn-contato {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+
+  .txt-contato,
+  .icons-contato {
+    display: block;
+    width: 100%;
+  }
+
+  .contato .txt-contato h3 {
+    font-size: 2em;
+    line-height: 40px;
+  }
+
+  .contato .icons-contato button {
+    width: 100%;
+  }
+
+  .contato .txt-contato p {
+    margin-bottom: 20px;
+  }
+
+  /* estilo da sessão hoteis */
+
+  .hoteis h3 {
+    font-size: 2.3em;
+    line-height: 40px;
+  }
+
+  .hoteis P {
+    margin: 20px 0;
+    font-size: 16px;
+  }
+
+  /* sessão como funciona */
+
+  .txt-funciona,
+  .instrucoes {
+    display: block;
+    width: 100%;
+  }
+
+  .como-funciona .txt-funciona {
+    position: static;
+  }
+
+  .como-funciona .txt-funciona h3 {
+    font-size: 3em;
+    line-height: 50px;
+  }
+
+  .instrucoes .instru-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* estilo rodapé */
+
+  footer .bottom-footer p {
+    font-size: 14px;
+  }
+}
