@@ -27,13 +27,4 @@ Acesse o site online aqui:
 - Botão "Voltar ao Topo" com efeito suave  
 - Design visual acolhedor e moderno
 
-## 👨‍💻 Autor
-
-**Lucas Santos**
-
-- [LinkedIn](https://www.linkedin.com/in/lucas-santos-b45673211)  
-- [GitHub](https://github.com/luc6923)
-
----
-
 Feito com ☕ e 💙 por Lucas Santos.
